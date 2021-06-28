@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --orange : hsl(31, 77%, 52%);
+    --cyan : hsl(184, 100%, 22%);
+    --darkgreen : hsl(179, 100%, 13%);
+    --whiteT : hsla(0, 0%, 100%, 0.75);
+    --gray : hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Voiture{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 50px 150px 50px;
+    @media (min-width : 992px){
+        flex-direction: row;
+        padding: 250px 50px;
+    }
+    .Voiture__General{
+        padding: 90px 90px 120px 90px;
+        @media (min-width : 992px){
+            padding: 50px 50px 100px 50px;
+        }
+        .Voiture__image{
+            width: 125px;
+            height: auto;
+            @media (min-width : 992px){
+                width: 80px;
+            }
+        }
+        .Voiture__title{
+            margin: 75px 0 75px 0;
+            font-family: 'Big Shoulders Display';
+            font-size: 80px;
+            color:white;
+        }
+        .Voiture__text{
+            margin-bottom: 100px;
+            font-family: 'Lexend Deca';
+            line-height: 1.90;
+            color: white;
+            font-weight: 100;
+            @media (min-width : 992px){
+                margin-bottom: 150px;
+            }
+        }
+        .Voiture__bouton__sedans{
+            text-decoration: none;
+            color: var(--orange);
+            background-color: white;
+            padding: 30px 70px;
+            border-radius: 80px;
+            font-family: 'Lexend Deca';
+            @media (min-width : 992px){
+                padding: 20px 40px;
+            }
+        }
+        .Voiture__bouton__suv{
+            text-decoration: none;
+            color: var(--cyan);
+            background-color: white;
+            padding: 30px 70px;
+            border-radius: 80px;
+            font-family: 'Lexend Deca';
+            @media (min-width : 992px){
+                padding: 20px 40px;
+            }
+        }
+        .Voiture__bouton__luxe{
+            text-decoration: none;
+            color: var(--darkgreen);
+            background-color: white;
+            padding: 30px 70px;
+            border-radius: 80px;
+            font-family: 'Lexend Deca';
+            @media (min-width : 992px){
+                padding: 20px 40px;
+            }
+        }
+    }
+    .Voiture__sedans{
+        background-color: var(--orange);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        @media (min-width : 992px){
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 30px;
+            width: 33.3333333333333333%;
+        }
+    }
+    .Voiture__suv{
+        background-color: var(--cyan);
+        @media (min-width : 992px){
+            width: 33.3333333333333333%;
+        }
+    }
+    .Voiture__luxe{
+        background-color: var(--darkgreen);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        @media (min-width : 992px){
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 50px;
+            width: 33.3333333333333333%;
+        }
+    }
+}

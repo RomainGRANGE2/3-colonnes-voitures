@@ -66,6 +66,12 @@
   padding: 30px 70px;
   border-radius: 80px;
   font-family: "Lexend Deca";
+  transition: all ease-in-out 0.3s;
+}
+.Voiture .Voiture__General .Voiture__bouton__sedans:hover {
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
 }
 @media (min-width: 992px) {
   .Voiture .Voiture__General .Voiture__bouton__sedans {
@@ -79,6 +85,12 @@
   padding: 30px 70px;
   border-radius: 80px;
   font-family: "Lexend Deca";
+  transition: all ease-in-out 0.3s;
+}
+.Voiture .Voiture__General .Voiture__bouton__suv:hover {
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
 }
 @media (min-width: 992px) {
   .Voiture .Voiture__General .Voiture__bouton__suv {
@@ -92,6 +104,12 @@
   padding: 30px 70px;
   border-radius: 80px;
   font-family: "Lexend Deca";
+  transition: all ease-in-out 0.3s;
+}
+.Voiture .Voiture__General .Voiture__bouton__luxe:hover {
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
 }
 @media (min-width: 992px) {
   .Voiture .Voiture__General .Voiture__bouton__luxe {

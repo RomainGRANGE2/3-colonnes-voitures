@@ -57,6 +57,12 @@
             padding: 30px 70px;
             border-radius: 80px;
             font-family: 'Lexend Deca';
+            transition: all ease-in-out 0.3s;
+            &:hover{
+                color: white;
+                background-color: transparent;
+                border: white 2px solid;
+            }
             @media (min-width : 992px){
                 padding: 20px 40px;
             }
@@ -68,6 +74,12 @@
             padding: 30px 70px;
             border-radius: 80px;
             font-family: 'Lexend Deca';
+            transition: all ease-in-out 0.3s;
+            &:hover{
+                color: white;
+                background-color: transparent;
+                border: white 2px solid;
+            }
             @media (min-width : 992px){
                 padding: 20px 40px;
             }
@@ -79,6 +91,12 @@
             padding: 30px 70px;
             border-radius: 80px;
             font-family: 'Lexend Deca';
+            transition: all ease-in-out 0.3s;
+            &:hover{
+                color: white;
+                background-color: transparent;
+                border: white 2px solid;
+            }
             @media (min-width : 992px){
                 padding: 20px 40px;
             }
